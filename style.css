@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+}
+.margin{
+    margin-right:20px;
+}
+.div{
+    background-color:orange;
+    width:280px;
+    height:280px;
+    border-radius: 50%;
+    position: relative;
+    margin-left:180px;
+    box-shadow: 0 0  23px #ffa600;
+}
+
+.float-start{
+    width:260px;
+    height:260px;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    left:11px;
+    object-fit: cover;
+    outline: 2px solid red;
+    /* outline: 5px solid rgb(227, 17, 119); */
+    outline-offset: 14px;
+}
+.navbar-brand{
+    color: white;
+}
+/* .nav-link,.active{
+    color:white;
+} */
+.nav-link{
+  color:white;
+}
+.collapse li a:hover{
+    color: rgb(0, 213, 255);
+    /* text-shadow: 0px 0px 23px rgb(0, 213, 255); */
+    text-shadow: 2px 2px 10px #00ffff;
+    transition:0.5s;
+
+}
+.navbar-brand:hover{
+    color:darkred;
+    transition: 0.5s;
+}
+h1{
+  font-family: 'Poppins';
+  font-size: 55px;
+  color: rgb(255, 0, 0);
+  text-shadow: 2px 2px 10px #ff0000;
+}
+.m-2{
+  width:50px;
+  height:50px;
+  display: inline-block;
+  border-radius: 30px;
+  /* border: 1px solid #00eeff; */
+  box-shadow: 2px 2px 10px #01ffb3;
+}
+.m-2:hover{
+  /* box-shadow: 5px 5px 10px #ff0000; */
+  color:rgb(0, 0, 0);
+  transition: 0.5s;
+  box-shadow:
+inset 0 0 50px #00eeff,      /* inner white */
+inset 20px 0 80px rgb(0, 238, 255),   /* inner left magenta short */
+inset -20px 0 80px rgb(0, 255, 255),  /* inner right cyan short */
+inset 20px 0 300px rgb(0, 225, 255),  /* inner left magenta broad */
+inset -20px 0 300px #0ff, /* inner right cyan broad */
+0 0 50px #fff,            /* outer white */
+-10px 0 80px rgb(255, 0, 0),        /* outer left magenta */
+10px 0 80px #0ff; 
+}
+.m-2 i{
+  font-size: 30px;
+  color: #00fffb;
+  margin-left:10px;
+  margin-top:10px;
+}
+.m-2 i:hover{
+  color:rgb(0, 0, 0);
+}
+.my-4{
+  height:40px;
+  width:270px;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  box-shadow: 2px 2px 15px #00ffff;
+  background-color: #00ffff;
+  letter-spacing: 1px;
+  margin-left: 5px;
+}
+.span{
+  color:#00ffff;
+}
+.justify{
+  text-align: justify;
+  margin-left: 5px;
+}
+/* .div .float-start{
+    height:67%;
+    width:50%;
+    border-radius: 140px;
+   
+    margin-top:30px;
+    outline: 7px solid rgb(237, 146, 9);
+    outline-offset: 10px;
+    border:5px solid red;
+} */
